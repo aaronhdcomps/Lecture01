@@ -2,6 +2,18 @@ h1 {
     color: red;
     font-weight: bold;
 }
-#main-section {
-    
+p::first-letter {
+    font-size: 28px;
 }
+#main-section > a {
+    color: blue;
+    text-decoration: none;
+}
+#main-section > a:hover {
+    color: orange;
+    background-color: black;
+}
+.foot {
+    font-size: small;
+}
+
